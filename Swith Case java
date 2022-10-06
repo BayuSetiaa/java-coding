@@ -1,0 +1,53 @@
+package com.program;
+
+import java.util.Scanner;
+
+public class cSwithCase {
+     
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("== Menu Makanan==\n"
+                + "1. Nasi Goreng  (Rp.10.000)\n"
+                + "2. Mie Goreng   (Rp.5.000)\n"
+                + "3. Bakso lava   (Rp.12.000)\n"
+                + "4. Tempe tahu (Rp.3.000)\n"
+                + "Masukan Pilihan Anda :");
+        String pilihan = input.next();
+        short jumlah;
+        int harga; 
+        switch (pilihan){
+            case "1" :
+                System.out.print("Masukan Jumlah Pesanan :");
+                 jumlah = input.nextShort();
+                 harga = jumlah * 10000;
+                System.out.println("Total Pesanan Anda Adalah : Rp." + harga);
+                break;
+                
+            case "2" :
+                System.out.print("Masukan Jumlah Pesanan :");
+                 jumlah = input.nextShort();
+                 harga = jumlah * 5000;
+                System.out.println("Total Pesanan Anda Adalah : Rp." + harga);
+                break;
+                
+            case  "3" :
+                System.out.print("Masukan Jumlah Pesanan :");
+                 jumlah = input.nextShort();
+                 harga = jumlah * 12000;
+                System.out.println("Total Pesanan Anda Adalah : Rp." + harga);
+                break;
+                
+            case  "4" :
+                System.out.print("Masukan Jumlah Pesanan :");
+                 jumlah = input.nextShort();
+                 harga = jumlah * 3000;
+                System.out.println("Total Pesanan Anda Adalah : Rp." + harga);
+                break;
+                
+            default :
+                System.out.println("Maaf Pesanan Anda Tidak Ditemukan!");
+                                           
+        }
+                       
+    }
+}
