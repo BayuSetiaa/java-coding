@@ -1,0 +1,14 @@
+package com.program;
+public class cCasting {
+    
+    public static void main(String[] args) {
+        int a = 5, b=2;
+        float hasil =(float) a /b;
+        hasil = 9f /b;
+        
+        System.out.println(hasil);
+              
+        
+    }
+    
+}
