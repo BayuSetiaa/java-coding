@@ -1,0 +1,33 @@
+package com.program;
+
+import java.util.Scanner;
+
+public class cIFMajemuk {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Siapa Nama Anda : ");
+        String nama = input.nextLine();
+        
+        System.out.print("Jurusan Kuliah Apa : ");
+        String jurusan = input.nextLine();
+        
+  // Soal atau Permasalahan
+  // 1. nama gak boleh kosong 
+  // 2. pekerjaanya harus programmer / Desainer
+  
+        if ( !nama.isEmpty() && jurusan.equalsIgnoreCase("Informatika")) {
+            System.out.println("Selamat ya " + nama + " , Anda Menantu Idaman Bangett");
+            
+        }else if (!nama.isEmpty() && jurusan.equalsIgnoreCase("Kedokteran")) {
+            System.out.println("Hallo " + nama + " , Anda Adalah Menantu Yang Hebat"); 
+        
+        }else {
+            System.out.println("Maaf " + nama +" Anda Tidak Cocok Dengan Anak Saya , Kasta Anda Terlalu Rendah ,Makanya Jadi Anak Informatika Dong Kayak Bayu Setia");
+        }
+            
+         
+    }
+        
+   
+}
