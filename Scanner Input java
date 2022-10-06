@@ -1,0 +1,23 @@
+package com.program;
+
+import java.util.Scanner;
+
+
+public class cScannerInput {
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Masukan Nama Anda = " );
+        String nama = input.nextLine();
+        
+        System.out.print("Masukan Nilai = ");
+        int nilai = input.nextInt();
+        
+        System.out.println("Nama Anda Adalah " + nama );
+        
+        System.out.println("Anda Mendapatkan Nilai = " + nilai );
+    }
+    
+    
+}
