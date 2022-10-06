@@ -1,0 +1,44 @@
+package com.program;
+public class cOperator {
+    
+    public static void main(String[] args) {
+       
+        //OPERATOR
+        //PENEGASAN
+        
+       // int bilangan=10;
+       
+       //aritmatika +, - , *  , /, %, ++, --, +=, -=
+       
+      // int bil1 = 14,
+      //  bil2 = 7,
+      //  hasil = bil1 + bil2;
+     //  bil1+=100;
+      // bil2  -=5;
+      
+      //pembanding <, >, <=, >= , ==, !=
+      
+     // int bil1 = 12 ,bil2 = 10;
+              
+     // boolean hasil = bil1> bil2;
+     
+     //logika &&, ||, !
+     
+     int totalBayar = 150000;
+     boolean atm = true;
+     boolean hasil = totalBayar <=150000 && atm == true;
+     hasil = ! hasil;
+     hasil = ! hasil;
+     
+     
+               
+        System.out.println(hasil);
+       
+              
+         
+    }
+    
+    
+    
+    
+}
