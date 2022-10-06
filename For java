@@ -1,0 +1,17 @@
+package com.program;
+
+import java.util.Scanner;
+
+public class cFor {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukan Batas Nilai :");
+        short batas = input.nextShort();
+     
+        for( int angka = batas; angka >= 1; angka -- ) {
+        System.out.println(angka);
+    }
+               
+    }
+       
+}
