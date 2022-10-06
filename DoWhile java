@@ -1,0 +1,18 @@
+package com.program;
+
+import java.util.Scanner;
+
+public class cDoWhile {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int nilaiAwal = 5;
+        int batas = 1;
+        do{
+            System.out.println(nilaiAwal);
+            nilaiAwal--;
+        }while(nilaiAwal >=batas);
+        
+               
+    }
+    
+}
