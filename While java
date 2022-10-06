@@ -1,0 +1,18 @@
+package com.program;
+
+import java.util.Scanner;
+
+public class cWhile {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukan Batas :");
+        int batas = input.nextInt();
+        int nilaiAwal = batas;
+        
+        while (nilaiAwal >= 1) {
+            System.out.println(nilaiAwal);
+            nilaiAwal--;
+        }
+    }
+   
+}
