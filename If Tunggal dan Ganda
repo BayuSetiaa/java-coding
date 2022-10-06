@@ -1,0 +1,19 @@
+package com.program;
+public class cIFTdG {
+    public static void main(String[] args) {
+       
+        int nilai = 90;
+        String matkul ="iNFormatika";
+         if (matkul.equalsIgnoreCase ("Informatika"))  {
+             
+             System.out.println("LULUS");
+                
+            } else {
+             
+             System.out.println("TIDAK LULUS");
+            }
+        
+           
+    }
+    
+}
