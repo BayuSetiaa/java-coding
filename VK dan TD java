@@ -1,0 +1,48 @@
+package com.program;
+
+public class cVKdanTD {
+    public static void main(String[] args) {
+        //variabel
+             //tipedata namavariabel;
+             
+      //  int x;
+     //  x= 14;
+        
+         //  char x;
+          // x=120;
+          
+        //  byte x;
+         // x= 12;
+            
+       // float x;
+       //  x= 5/2;
+        // x= 5*3;
+        
+        //boolean x;
+       // x = true;
+       // x= false;
+       
+      // int x=100;
+      
+      //KONSTANTA
+      
+      final int x=100;
+     
+     
+       
+        
+        
+         
+           
+            System.out.println(x);
+        
+        
+        
+       
+        
+        
+        
+        
+    }
+    
+}
