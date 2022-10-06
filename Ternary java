@@ -1,0 +1,22 @@
+package com.program;
+
+import java.util.Scanner;
+
+public class cTernary {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        int nilai = input.nextInt();
+        String Keterangan = nilai >=70 && nilai <=100 ? "Mantap dong" : "Tidak Mantap";
+        System.out.println (Keterangan);
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+    
+}
